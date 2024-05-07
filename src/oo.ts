@@ -1,10 +1,13 @@
-function multiplicar() {
-    const multiplcacao = 3 * 5
-    console.log(multiplicar);
-}
+function saudacao(nome: string,): string {
+    return `Olá ${nome}`;
+};
+const seuNome = "Lucas";
+const saudacaoSeuNome = saudacao(seuNome);
+console.log(saudacaoSeuNome);
 
-function retornaNome() {
-    const nome = 'lucas';
-    console.log('Ola + ', nome)
-
-}
+function calcularArea (base: number, altura: number): number {
+    const area = base * altura;
+    return area;
+};
+const resultado = calcularArea(178, 2.37);
+console.log(resultado);
